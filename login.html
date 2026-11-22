@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>School Portal Login - Wobulenzi Bright Parents</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<script src="script.js"></script>
+<body>
+
+    <div class="login-container">
+
+        <div class="login-box">
+
+            <h1>Wobulenzi Bright Parents</h1>
+
+            <p class="motto">Best Invest in Education</p>
+
+            <h2>School Portal</h2>
+
+<div class="user-roles">
+
+    <button type="button" class="role-button" onclick="selectRole('Administrator')">
+        Administrator
+    </button>
+
+    <button type="button" class="role-button" onclick="selectRole('Teacher')">
+        Teacher
+    </button>
+
+    <button type="button" class="role-button" onclick="selectRole('Parent')">
+        Parent
+    </button>
+
+    <button type="button" class="role-button" onclick="selectRole('Student')">
+        Student
+    </button>
+
+</div>
+
+<p id="selected-role">Please select your account type.</p>
+
+            <p>Login to access your account</p>
+
+            <form id="login-form">
+
+    <label for="username">Username</label>
+
+    <input
+        type="text"
+        id="username"
+        placeholder="Enter your username"
+        required
+    >
+
+    <label for="password">Password</label>
+
+    <input
+        type="password"
+        id="password"
+        placeholder="Enter your password"
+        required
+    >
+
+    <button type="submit">Login</button>
+
+</form>
+
+            <a href="index.html" class="back-home">
+                Back to Homepage
+            </a>
+
+        </div>
+
+    </div>
+
+</body>
+</html>
